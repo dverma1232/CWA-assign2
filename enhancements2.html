@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>The Best HTML Training Course</title>
+  <link rel = "stylesheet" type = "text/css" href = "styles/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <meta name="description" content="HTML Training Course" />
+  <meta name="keywords" content="HTML5, course, training" />
+  <meta name="author" content="Divanshu Verma"  />
+</head>
+<!-- Body begin -->
+<body>
+   <!-- Navigation -->
+   <header id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" title="Logo"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a class="nav-link" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="product.html">Course Range </a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="enquire.html">Enquiry</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="about.html">About</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="enhancements.html">Enhancements</a>
+            </li>
+             <li class="nav-item active">
+               <a class="nav-link" href="#">JS Enhancements <span class="sr-only">(current)</span></a>
+             </li>
+           </ul>
+         </div>
+       </nav>
+   </header>
+   <!-- Breadcrumbs -->
+   <section id="breadcrumb-section">       
+       <nav aria-label="breadcrumb">
+         <ol class="breadcrumb">
+           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+           <li class="breadcrumb-item active" aria-current="true">JS Enhancements</li>
+         </ol>
+       </nav>
+   </section>
+
+   <!-- About Details -->
+   <section id="enhancements">
+    <div class="container">
+        <h2>Countdown Timer on Payment Page</h2>
+        <p>One of the enhancements I have created in my assignment is a <a href="payment.html#timer">countdown timer</a> on the payment page. I created a function which updates every second and calculates the time left, then edits the paragraph to display the updated remaining time. If the time is up then it runs the clearStorage function, which clears local storage and redirects the visitor back to index.html. I used this YouTube video: <a href="https://www.youtube.com/watch?v=x7WJEmxNlEs">https://www.youtube.com/watch?v=x7WJEmxNlEs</a> to learn how to do it and modified the code to suit.</p>
+        <p><strong>Preview:</strong></p>
+        <img class="col-md-6 enhance-img" src="https://i.imgur.com/JtxLrYe.gif" alt="Countdown Timer Preview" title="Countdown Timer Preview">
+    </div>
+    <div class="container">
+        <h2>Name on Card is Prefilled</h2>
+        <p>Another enhancement is that I have made the name on the card to be prefilled based on the first name and last name entered, <a href="payment.html#card-name">click here to view it</a>. I have also added the same functionality to the name field that is displayed on the payment page, so rather than showing separate fields for First Name and Last name, it just shows one field for the full name, <a href="payment.html#full-name">click here to view it</a>.</p>
+        <p><strong>Preview:</strong></p>
+        <img class="col-md-6 enhance-img" src="https://i.imgur.com/WbDhDoD.png" alt="Countdown Timer Preview" title="Countdown Timer Preview">
+    </div>
+    <div class="container">
+      <h2>Comments Textbox Hidden if Empty</h2>
+      <p>I have also added functionality for the additional comments textbox to hidden from the payment page if the visitor hasn't entered anything into it from the enquire page. This makes the design cleaner and less congested and also doesn't show the user information that they don't need, improving the UX.</p>
+      <p><strong>Preview:</strong></p>
+        <img class="col-md-6 enhance-img" src="https://i.imgur.com/w4FuHUT.gif" alt="Countdown Timer Preview" title="Countdown Timer Preview">
+    </div>
+  </section>
+   <!-- Footer -->
+	<footer>
+      <div class="container text-center">
+         <p class="footer-text">Made by <a href="https://dvapps.site/">Divanshu Verma</a></p>
+      </div>
+	</footer>
+</body>
+</html>
